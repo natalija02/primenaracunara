@@ -1,14 +1,14 @@
-/* Reset margina i paddinga */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body - bebi roze pozadina, centriranje */
+
 body {
-  background-color: hsl(336, 67%, 79%); /* bebi roze */
-  color: #000000; /* crna boja slova */
+  background-color: hsl(336, 67%, 79%); 
+  color: #000000; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
   display: flex;
@@ -18,7 +18,7 @@ body {
   text-align: center;
 }
 
-/* Header - stilizacija */
+
 header {
   margin-bottom: 40px;
 }
@@ -31,7 +31,6 @@ header h1 {
   text-align: center;
 }
 
-/* Main content stilizacija */
 main {
   max-width: 800px;
   width: 100%;
@@ -51,20 +50,20 @@ section{
 
 }
 
-/* Linkovi - jasno vidljivi */
+
 a {
-  color: #6a1b9a; /* ljubičasta */
+  color: #6a1b9a; 
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 a:hover {
-  color: #ad1457; /* tamno roze */
+  color: #ad1457; 
   text-decoration: underline;
 }
 
-/* Liste */
+
  ol,ul {
   font-size: 1rem;
   text-align: left;
@@ -74,13 +73,13 @@ a:hover {
   
 }
 
-/* Slike */
+
 img {
   border-radius: 10px;
   margin-top: 10px;
 }
 
-/* Iframe/video */
+
 iframe, video {
   margin-top: 15px;
   max-width: 100%;
@@ -88,7 +87,7 @@ iframe, video {
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
-/* Footer */
+
 footer {
   margin-top: 40px;
   font-size: 1rem;
@@ -100,15 +99,15 @@ footer a {
   padding: 10px 20px;
   display: inline-block;
 }
-/* ---------- KONTAKT STRANICA ---------- */
 
-/* Kontakt naslov */
+
+
 h2 {
   font-size: 1.5rem;
   margin-bottom: 20px;
 }
 
-/* Lista sa kontakt informacijama */
+
 ul {
   list-style: none;
   padding: 0;
@@ -120,7 +119,7 @@ ul li {
   margin-bottom: 10px;
 }
 
-/* Forma */
+
 form {
   display: flex;
   flex-direction: column;
@@ -131,7 +130,7 @@ form {
   margin: 0 auto;
 }
 
-/* Inputi i textarea */
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -143,7 +142,7 @@ textarea {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Dugme za slanje */
+
 input[type="submit"] {
   background-color: #6a1b9a;
   color: white;
@@ -160,11 +159,11 @@ input[type="submit"]:hover {
   background-color: #ad1457;
 }
 
-/* Labeli */
+
 label {
   font-weight: 600;
 }
-/* Stil za tabelu uspeh */
+
 table {
   width: 100%;
   max-width: 600px;
@@ -176,15 +175,15 @@ table {
   overflow: hidden;
 }
 
-/* Naslov tabele (caption) */
+
 table caption {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 15px;
-  color: #6a1b9a; /* ljubičasta */
+  color: #6a1b9a; 
 }
 
-/* Glava tabele */
+
 th {
   background-color: #6a1b9a;
   color: white;
@@ -194,25 +193,25 @@ th {
   font-size: 1.1rem;
 }
 
-/* Ćelije tabele */
+
 td {
   padding: 12px 15px;
   border-bottom: 1px solid #ddd;
   font-size: 1rem;
 }
 
-/* Redovi tabele - naizmenično obojenje */
+
 tr:nth-child(even) {
-  background-color: #f7e6f7; /* svetlo ljubičasta */
+  background-color: #f7e6f7; 
 }
 
-/* Hover efekat na redove */
+
 tr:hover {
   background-color: #d9b3d9;
   cursor: default;
 }
 
-/* Responsive - tabelu smanjuj na mobilnim */
+
 @media (max-width: 480px) {
   table, thead, tbody, th, td, tr {
     display: block;
@@ -239,7 +238,7 @@ tr:hover {
     color: #6a1b9a;
   }
 }
-/* ---------- USPEH TABELA ---------- */
+
 table {
   width: 100%;
   max-width: 600px;
